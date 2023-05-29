@@ -7,7 +7,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
-    height: 100vh;
+    height: 97vh;
 }
 
 .abt-us-inner{
@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .head-1{
