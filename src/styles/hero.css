@@ -1,0 +1,19 @@
+.hero {
+    
+          
+  background-image: url(https://www.science.org/do/10.1126/science.caredit.aav6903/full/worldmentalhealthday_16x9.jpg);     
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image:cover;
+  text-align: center;
+  padding: 100px 0;
+  background-color: #0094c1;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
