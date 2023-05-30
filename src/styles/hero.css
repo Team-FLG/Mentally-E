@@ -1,16 +1,33 @@
 .hero {
-    
-          
-  background-image: url(https://www.science.org/do/10.1126/science.caredit.aav6903/full/worldmentalhealthday_16x9.jpg);     
+  min-height: 100vh;
+  border-bottom: 1px solid #ccc;
+  padding: 0 100px;
+  padding-top: 75px;
+}
+
+.hero .container{
+  background-image: url(https://www.science.org/do/10.1126/science.caredit.aav6903/full/worldmentalhealthday_16x9.jpg);
+
   background-repeat: no-repeat;
+
   background-attachment: fixed;
+
   background-size: 100% 100%;
-  background-image:cover;
+
+  background-image: cover;
+
   text-align: center;
+
   padding: 100px 0;
-  background-color: #0094c1;
+
+  /* background-color: #0094c1; */
+
   color: #fff;
+
   border-radius: 50px;
+
+  width: 100%;
+  height: 100%;
 }
 
 .hero h1 {
