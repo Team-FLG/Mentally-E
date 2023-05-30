@@ -1,0 +1,120 @@
+nav{
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 1px 10px 0.5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* position: fixed;
+    top: 0;
+    left:0;
+    right: 0; */
+    /* z-index: 50px; */
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%; 
+}
+
+.logo{
+    width: 85px;
+    height: 75px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px; 
+    list-style-type: none 
+}
+
+
+.options a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #01386a;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.mid a:hover{
+    color: #ffffff;
+    background-color: #0094c1;
+}
+
+.right button{
+    background-color: #01386a;
+    color:white;
+    font-weight: 600;
+    font-size:medium;
+    padding: 8px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.right button:hover{
+    background-color: #0094c1;
+    color: #000000;
+    transition: 0.4s;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger span{
+    margin: 2px;
+    display: block;
+    height: 6px;
+    width: 30px;
+    background-color: #01386a;
+    border-radius: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;  
+}
+
+
+@media(max-width: 800px){
+
+    .options{
+        display:none;
+    }
+
+    .hamburger{
+        display:block;
+    }
+
+    .options.show-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position:absolute;
+        background-color: #01386a;
+        height: 200px;
+        right: 0px;
+        top: 80px;
+        padding: 20px 25px;
+        gap:50px
+    }
+
+    .options a{
+        text-decoration: none;
+        padding: 8px 20px;
+        color: #dfdfdf;
+        font-weight: 500;
+        text-align: center;
+        border-radius: 15px;
+    }
+  
+}
