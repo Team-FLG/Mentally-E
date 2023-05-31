@@ -1,4 +1,4 @@
-/* footer styles*/  
+/* footer styles*/
 footer{
   position: bottom;
   bottom: 0;
@@ -6,7 +6,7 @@ footer{
   right: 0;
   background: #0094c1;
   height: auto;
-  width: 100vw;
+  width: 100%;
   font-family: "Montserrat";
   padding-top: 40px;
   color: #fff;
@@ -55,7 +55,7 @@ footer{
 
 .footer-bottom{
   background: #01386a;
-  width: 100vw;
+  width: 100%;
   padding: 20px 0;
   text-align: center;
 }
