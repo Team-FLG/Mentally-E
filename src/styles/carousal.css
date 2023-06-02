@@ -6,58 +6,89 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;;
+  height: 100vh;
+  padding-top: 80px;
 }
+
 .container{
  width: 90%;
- padding: 10px 40px;
+ padding: 20px 0px;
  overflow: hidden;
 }
 
 .container .swiper-container{
  width: 100%;
  height: 400px;
+ padding: 0 100px;
+
 }
 
 .disorders{
   font-size: 40px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.disorders h1{
+  font-size: 60px;
+  padding-bottom: 15px;
+  color:#01386a;
+}
+
+.disorders p{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(120, 120, 120);
   padding-bottom: 50px;
+  width: 40%;
 }
 
 .card-description{
-  display: flex;
-  flex-direction: column;
-  gap:30px;
+  display: grid !important;
+  grid-template-rows: 0.25fr 0.5fr 0.5fr;
+  padding: 0px !important;
+  height: 310px;
 }
 
 .container .swiper-slide {
- position: relative;
- text-align: center;
- font-size: 18px;
- color: aliceblue;
- background-image: linear-gradient(#01386a, #0094c1);
- border-radius: 15px;
- text-align: start;
- box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
-
+  position: relative;
+  color: #f2f2f2;
+  background-image: linear-gradient(#01386a, #0094c1);
+  border-radius: 15px;
+  padding: 10px 30px 10px 30px;
+  width: 280px !important;
+  height: 330px !important;
+  margin-left: 55px;
 }
-.container .swiper-slide img{
-  display: block;
-   width: 100%;
-   height: 180px;
-   object-fit: cover;
-   border-top-left-radius: 15px;
-   border-top-right-radius: 15px;
 
+.container .swiper-slide h4{
+  font-size: 20px;
+  text-align: center;
 }
+
+.container .swiper-slide p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+/* .container .swiper-slide .card-text{
+  text-align: center;
+  height: 40%;
+}
+
+.container .swiper-slide .card-exp{
+  text-align: center;
+  height: 60%;
+} */
+
 .container .swiper-slide .card-description{
    padding:1rem 1rem;
 }
-.container .swiper-slide .card-title,.container .swiper-slide .card-text{
+/* .container .swiper-slide .card-title,.container .swiper-slide .card-text{
   margin-bottom: .5rem;
-}
+} */
 .container .swiper-slide .card-link{
   text-align: center;
  
