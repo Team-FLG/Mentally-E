@@ -13,7 +13,7 @@
 }
 
 html {
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Monserrat', sans-serif;
 }
 
 section{
@@ -30,7 +30,7 @@ section{
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto Mono";
+  font-family: "Monserrat";
   font-size: 18px;
 }
 #hero {
