@@ -10,12 +10,15 @@ body {
   font-size: 18px;
 }
 #hero {
-  height: 100vh;
+  
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-    url("https://ca-times.brightspotcdn.com/dims4/default/2c5500a/2147483647/strip/true/crop/5401x3600+499+0/resize/1440x960!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F9a%2Fa5%2Fa427703148fd85b66680403eb8d9%2Fedit-artwork2857.jpg");
-  color: whitesmoke;
-}
+    url("https://images.healthshots.com/healthshots/en/uploads/2022/10/17204734/smile-and-happiness.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+
+  }
 .container {
   width: 90%;
   height: 100%;
