@@ -1,8 +1,8 @@
 /* contact us*/
 section{
-  padding :40px 15%;
+  padding :80px 108;
 }
-#contact{
+.contact{
   background: #101010;
   height: 100%;
   width: 100%;
@@ -27,7 +27,7 @@ span{
   color: #0094c1;
 }
 .contact-form p{
-  color:#01386a;
+  color:#e5ecf3;
   Letter-spacing :1px;
   line-height: 26px;
   font-size: 1.1rem;
@@ -73,7 +73,7 @@ span{
 }
 @media (max-width:1570px){
   section{
-      padding: 80px 3%;
+      padding: 100px 3%;
       transition: .2s;
   }
   .contact-form h1{

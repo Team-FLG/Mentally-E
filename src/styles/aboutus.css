@@ -1,12 +1,14 @@
 #about-us{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     margin-top: 1%;
     padding-top: 80px;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 0;
     margin: 0;
     background-color: #01386a;
 }
@@ -16,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 40%;
+    /* width: 35%; */
     
 
 }
@@ -25,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 60%;
     
 
 }
@@ -49,12 +52,12 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 550px ;
-    height: 500px;
+    /* width: 400px ;
+    height: 400px; */
     padding-left: 60px;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-column-gap: 0 ;
-    grid-row-gap: 0 ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px ;
    
 }
 
@@ -62,7 +65,7 @@
     background-color: rgba(43, 41, 41, 0.441);
     border-radius: 20px;
     width: 150px;
-    height: 150px;
+    height: 100px;
 }
 
 #about-us .right .grid-container .item:nth-of-type(1){
