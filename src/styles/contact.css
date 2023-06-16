@@ -2,7 +2,8 @@
 section{
   padding :80px 108;
 }
-.contact{
+
+#contact{
   background: #101010;
   height: 100%;
   width: 100%;
@@ -23,9 +24,11 @@ section{
   margin-bottom: 20px;
    
 }
+
 span{
   color: #0094c1;
 }
+
 .contact-form p{
   color:#e5ecf3;
   Letter-spacing :1px;

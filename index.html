@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="./src/styles/carousal.css">
     <link rel="stylesheet" href="./src/styles/contact.css">
     <link rel="stylesheet" href="./src/styles/footer.css">
+
+    <!--Animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Mentally-E</title>
 </head>
 
@@ -25,7 +29,7 @@
     <!-- Navbar -->
     <nav>
         <div class="left">
-            <a href="#">
+            <a href="#hero">
                 <img class="logo" src="src/images/Meantelly-edit-PNG.png" alt="Mentallye-logo">
             </a>
             <a class="logo-name" href="#">Mentally-e</a>
@@ -35,7 +39,7 @@
   
             <ul class="options">
                 <li>
-                    <a href="#about-us">About Us</a>
+                    <a href="#about-us" >About Us</a>
                 </li>
     
                 <li>
@@ -64,9 +68,9 @@
     <section id="hero">
         <div class="container">
           <div class="info">
-            <h1>Mentally-e</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vero ratione vitae dicta explicabo
+            <h1 data-aos="fade-left">Mentally-e</h1>
+            <h2 data-aos="fade-right">Lorem ipsum dolor sit amet consectetur.</h2>
+            <p data-aos="fade-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vero ratione vitae dicta explicabo
                 perferendis amet quis provident molestiae magni!</p>
           </div>
         </div>
@@ -74,15 +78,16 @@
     <!-- Assigned to @Anandu -->
 
     <!-- About Us -->
-    <section id="about-us">
-        <div class="left">
+    <section id="about-us" >
+        <div class="left" data-aos="flip-left">
     
           <h1 class="abtus-h"> About Us</h1>
           <p class="abtus-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit animi aliquid quos laborum cupiditate doloremque ipsam fugiat doloribus deleniti quia.</p>
-    
+
+
         </div>
     
-        <div class="right">
+        <div class="right" data-aos="flip-right">
     
           <div class="grid-container">
             <div class="item item1"><img src="src/images/aboutus-images/image2.png" alt=""></div>
@@ -103,17 +108,17 @@
     <!-- Carousal -->
     <section class="carousal">
 
-        <div class="disorder">
+        <div class="disorder" data-aos="fade-down">
             <h1 class="disorder-h">Disorders</h1>
             <p class="disorder-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ratione a facere rerum animi quia corrupti quas expedita impedit dolor..</p>
         </div>
-        <div class="slide-container swiper">
+        <div class="slide-container swiper " data-aos="fade-up">
             <div class="slide-content">
-                <div class="card-wrapper swiper-wrapper">
-                    <div class="card swiper-slide">
+                <div class="card-wrapper swiper-wrapper ">
+                    <div class="card swiper-slide ">
                         <div class="card-content">
                             <h2 class="name">Lorem, ipsum.</h2>
-                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deserunt eius eaque necessitatibus. Et cum nostrum sunt similique explicabo aut reprehenderit itaque maiores voluptas distinctio, dicta a fuga repellat, accusantium culpa porro! Doloremque, necessitatibus temporibus.</p>
                             <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
                         </div>
                     </div>
@@ -130,7 +135,7 @@
                         <div class="card-content">
                             <h2 class="name">Lorem, ipsum.</h2>
                             <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                            <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
+                            <p class="example">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quibusdam nihil fuga aperiam atque repellendus. In eos, esse ut repellendus assumenda pariatur cupiditate ratione quos?/p>
                         </div>
                     </div>
     
@@ -196,10 +201,10 @@
     <!-- Assigned to @Devi -->
 
     <!-- Contact Us -->
-    <section id="contact">
-        <div class="contact-form">
+    <section id="contact" >
+        <div class="contact-form"data-aos="fade-down">
           <h1>Contact <span>Us</span></h1>
-          <p>connect us via Phone:(098)7231343 or through email:mentallyeorg@gmail.com</p>
+          <p >connect us via Phone:(098)7231343 or through email:mentallyeorg@gmail.com</p>
 
           <form action="">
             <input type="email" placeholder="Email">
@@ -207,7 +212,7 @@
             <input type="submit" value="Submit" class="btn">
           </form>
         </div>
-        <div class="contact-img">
+        <div class="contact-img" data-aos="fade-down">
           <img src="./src/images/kv-contact-us-xs.jpg">
         </div>
       </section>
@@ -236,9 +241,14 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./src/js/navbar.js"></script>
     <script src="./src/js/carousal.js"></script>
+    <!-- <script src="./src/js/animation.js"></script> -->
 
     <!-- Swiper JS -->
     <script src="src/js/swiper-bundle.min.js"></script>
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./src/js/animation.js"></script>
 
 </body>
 

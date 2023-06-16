@@ -2,11 +2,12 @@
   height: 100vh;
   width: 100%;
   background-color: #f2f2f2;
-  padding-top: 80px;
+  padding: 80px 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .disorder{
@@ -15,14 +16,14 @@
 
 .disorder-h{
   text-align: center;
-  font-size: 50px;
+  font-size: 55px;
   color: #01386a;
 }
 
 .disorder-p{
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
-  font-size: medium;
+  font-size: 20px;
   font-weight: 600;
   color: #333333cc;
   
@@ -32,16 +33,23 @@
   max-width: 1120px;
   width: 100%;
   padding: 10px 0;
-  min-height: 330px;
-  margin: 30px;
+  min-height: 400px;
+  margin: 25px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide-content{
   margin: 0 120px;
   overflow: hidden;
   border-radius: 25px;
-  height: 290px;
+  height: 390px;
 
+}
+
+.swiper-backface-hidden .swiper-slide {
+  height: 350px !important;
 }
 
 .card{
@@ -50,6 +58,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 280px;
 }
 
 .card-content{
@@ -57,26 +66,31 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 30px 30px;
+  padding: 10px 20px;
   color: white;
+  height: 330px;
   
 }
 
 .name{
   font-size: 19px;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 18px;
 
 }
 
 .description{
-  font-size: 13px;
   text-align: justify;
+  font-size: 15px;
 
 }
 
 .example{
-  font-size: 13px;
   text-align: justify;
+  font-size: 15px;
 }
 
 .swiper-navBtn{
@@ -129,4 +143,10 @@
   .swiper-navBtn{
     display: none;
   }
+
+  
+}
+
+@media (max-width : 425px){
+  
 }
