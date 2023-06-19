@@ -1,15 +1,16 @@
 nav{
-    height: 80px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 1px 10px 0.5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 10px 0.5px rgba(3, 0, 0, 0.2);
     position: fixed;
     top: 0;
     left:0;
     right: 0;    
-    background-color: #ffffff;
+    background-color: #ffffffea;
+    color: #000;
     z-index: 10;
 }
 
@@ -20,41 +21,77 @@ nav{
 }
 
 .logo{
-    width: 75px;
-    height: 75px;
+    width: 45px;
+    height: 45px;
 }
 
 .logo-name{
     text-decoration: none;
-    color: #01386a;
+    color: #000;
     font-size: larger;
-    font-weight:700;
+    font-weight:500;
     padding-left: 5px;
+}
+
+.logo-name:hover{
+    color: #01386a;
 }
 
 .options {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:10px; 
+    gap:20px; 
     list-style-type: none 
 }
 
 
 .options a{
     text-decoration: none;
-    padding: 8px 20px;
-    color: #01386a;
-    font-weight: 500;
+    color: #000;
+    font-weight: 300;
     text-align: center;
-    border-radius: 15px;
+    transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .mid a:hover{
-    color: #ffffff;
-    background-color: #0094c1;
+    color: #0e3b64;
+}
+/*  */
+.options a:after,
+.options a:before {
+  content: "";
+  width: 0%;
+  display: block;
+  height: 1px;
+  transition: all 0.3s ease;
+  margin-top: 2px;
+  transition: all 300ms ease-in;
 }
 
+.options a:after {
+  bottom: 25%;
+  left: 0;
+}
+
+.options a:before {
+  top: 25%;
+  right: 0;
+}
+
+.options a:hover::after {
+  width: 100%;
+  height: 1px;
+  bottom: 25%;
+  background-color: #3c8edb;
+}
+.options a:hover::before {
+  width: 100%;
+  height: 1px;
+  top: 25%;
+  background-color: #3c8edb
+}
+/*  */
 .right button{
     background-color: #01386a;
     color:white;
