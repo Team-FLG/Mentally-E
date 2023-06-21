@@ -21,9 +21,8 @@
 
     <!--Animation-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <title>Mentally-E</title>
-</head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
     <!-- Navbar -->
@@ -32,7 +31,7 @@
             <a href="#hero">
                 <img class="logo" src="src/images/Meantelly-edit-PNG.png" alt="Mentallye-logo">
             </a>
-            <a class="logo-name" href="#">Mentally-e</a>
+            <a class="logo-name" href="#hero">Mentally-e</a>
         </div>
   
         <div class="mid">
@@ -50,7 +49,7 @@
         </div>
   
         <div class="right">
-            <button>Book Counselling</button>
+            <button class="btn" id="data-open-modal" >Book Counselling</button>
         </div>
   
         <!--Hamburger-->
@@ -112,9 +111,9 @@
             <h1 class="disorder-h">Disorders</h1>
             <p class="disorder-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ratione a facere rerum animi quia corrupti quas expedita impedit dolor..</p>
         </div>
-        <div class="slide-container swiper " data-aos="fade-up">
+        <div class="slide-container swiper " data-aos="fade-up" >
             <div class="slide-content">
-                <div class="card-wrapper swiper-wrapper ">
+                <div class="card-wrapper swiper-wrapper">
                     <div class="card swiper-slide ">
                         <div class="card-content">
                             <h2 class="name">Lorem, ipsum.</h2>
@@ -237,21 +236,48 @@
     </footer>
     <!-- Assigned to @Anandu -->
 
+    <!--Book counselling-->
+
+    <dialog id="data-modal" class="book-counselling">
+        
+        <h2>Enter your details</h2>
+        <br />
+        <form action="" id="form1">
+          <label for="name">Name *&nbsp &nbsp &nbsp:&nbsp&nbsp </label>
+          <input type="text" id="name" required /><br /><br />
+          <label for="email">Email *&nbsp&nbsp &nbsp&nbsp:&nbsp&nbsp </label>
+          <input type="email" id="email" required /><br /><br />
+          <label for="mob">Mob No *&nbsp:&nbsp&nbsp </label>
+          <input type="tel" id="mob" required /><br /><br />
+          <button type="submit" id="data-next-modal">Book Now</button>
+          <button id="data-close-modal">Close</button>
+        </form>
+      </dialog>
+    
+      <dialog id="data-modal2" class="book-confirmation">
+        <h2>Booking successful</h2>
+      </dialog>
     <!-- Custom JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./src/js/navbar.js"></script>
     <script src="./src/js/carousal.js"></script>
-    <!-- <script src="./src/js/animation.js"></script> -->
 
     <!-- Swiper JS -->
     <script src="src/js/swiper-bundle.min.js"></script>
-
 
     <!--AOS-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./src/js/animation.js"></script>
 
-   
+    <script src="./src/js/book_counselling.js"></script>
+
+
+    <iframe
+    src="https://www.chatbase.co/chatbot-iframe/0IKNafF-rd8PAFQmMAOxD"
+    width="100%"
+    height="700"
+    frameborder="0"
+    ></iframe>
 
     <script>
         window.chatbaseConfig = {
@@ -269,3 +295,4 @@
 
 
 </html>
+

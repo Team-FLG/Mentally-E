@@ -55,7 +55,7 @@ nav{
     background-color: #0094c1;
 }
 
-.right button{
+.right .btn{
     background-color: #01386a;
     color:white;
     font-weight: 600;
@@ -124,5 +124,126 @@ nav{
     .right button{
         padding: 8px 15px;
     }
-  
 }
+
+#data-modal{
+    position: fixed;
+    bottom: 20%;
+    top: 25%;
+    border-radius: 15px;
+    border: none;
+    padding: 40px 50px;
+    background-image: #f2f2f2;
+    z-index: 9999;
+    margin: auto auto;
+}
+
+.book-counselling label{
+    text-align: center;
+    font-size: 18px;
+    color: #01386a;
+    font-weight:bold;
+}
+
+.book-counselling h2{
+    text-align: center;
+    color: #01386a;
+}
+
+.book-counselling input{
+    height: 24px;
+    width: 200px;
+    border-color: #01386a;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 10px;
+}
+
+.book-counselling #data-next-modal{
+    margin-top: 10px;
+    margin-left: 20%;
+    background-color: #01386a;
+    color: #f2f2f2;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+}
+
+.book-counselling #data-next-modal:hover{
+    background-color: #0094c1;
+}
+
+#data-modal2{
+    position: fixed;
+    bottom: 30%;
+    top: 34%;
+    border-radius: 15px;
+    border: none;
+    padding: 30px 40px;
+    background-image: #f2f2f2;
+    z-index: 9999;
+    margin: auto auto;
+    filter: blur(4);   
+}
+
+.book-confirmation h2{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#data-close-modal {
+    background-color: #5252526c;
+    color: #0000008d;
+    margin-top: 12px;
+    margin-left: 5%;
+    display: inline-flex;
+    padding: 7px 12px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+#data-close-modal:hover {
+    background-color: #6a6a6a;
+    color: #ffffff6c;
+    margin-top: 12px;
+    margin-left: 5%;
+    display: inline-flex;
+    padding: 7px 12px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.495);
+  }
+
+@media(max-width: 470px){
+    #data-modal{
+        padding: 5px auto;
+        width: 600px;
+        padding: 25px 0 25px 45px;
+    }
+
+    .book-counselling input{
+        width: 200px;
+        padding: 0 10px;
+    }
+
+    .book-counselling button{
+        width: 100px;
+        margin-left: 28%;
+    }
+}
+
