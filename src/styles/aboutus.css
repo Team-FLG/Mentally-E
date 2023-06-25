@@ -8,9 +8,9 @@
     padding-top: 80px;
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: 0;
+    padding-bottom: 30px;
     margin: 0;
-    background-color: #01386a;
+    background-color: var(--bg);
 }
 
 #about-us .left{
@@ -30,7 +30,7 @@
 
 #about-us .left .abtus-h{
     font-size: 55px;
-    color: #f2f2f2;
+    color: var(--primary-blue);
     min-width: 60px;
     text-align: center;
     
@@ -38,7 +38,7 @@
 
 #about-us .left .abtus-p{
     font-size: 21px;
-    color: #f2f2f2;
+    color: var(--primary-blue);
     padding-top: 15px;
     text-align: center;
     font-weight: 500;
@@ -59,7 +59,7 @@
 }
 
 #about-us .right .grid-container .item {
-    background-color: rgba(43, 41, 41, 0.441);
+
     border-radius: 20px;
     width: 150px;
     height: 100px;
@@ -70,7 +70,7 @@
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: aqua;
+
 }
 
 #about-us .right .grid-container .item:nth-of-type(2){
@@ -78,7 +78,7 @@
     grid-row-end: 6;
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: rgb(161, 20, 152);
+
 }
 
 #about-us .right .grid-container .item:nth-of-type(3){
@@ -86,7 +86,7 @@
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
-    background-color: rgb(77, 156, 89);
+
 }
 
 #about-us .right .grid-container .item:nth-of-type(4){
@@ -94,7 +94,7 @@
     grid-row-end: 5;
     grid-column-start: 2;
     grid-column-end: 3;
-    background-color: rgb(156, 77, 77);
+
 }
 
 #about-us .right .grid-container .item:nth-of-type(5){
@@ -102,7 +102,7 @@
     grid-row-end: 7;
     grid-column-start: 2;
     grid-column-end: 3;
-    background-color: rgb(77, 148, 156);
+
 }
 
 #about-us .right .grid-container .item:nth-of-type(6){
@@ -110,7 +110,7 @@
     grid-row-end: 4;
     grid-column-start: 3;
     grid-column-end: 4;
-    background-color: rgb(152, 156, 77);
+
 }
 
 #about-us .right .grid-container .item:nth-of-type(7){
@@ -133,12 +133,10 @@
 
     #about-us .left .abtus-h{
         font-size: 50px;
-        color: #f2f2f2;
     }
 
     #about-us .left .abtus-p{
         font-size:18px;
-        color: #f2f2f2;
         padding-top: 15px;
         text-align: center;
         min-width: 300px ;
@@ -260,7 +258,7 @@
     }
 
     #about-us .left .abtus-p{
-        padding-top: 30px;
+        padding-top: 15px;
         text-align: center;
         font-size: 18px;
     }

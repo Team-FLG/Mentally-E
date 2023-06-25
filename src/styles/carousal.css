@@ -48,7 +48,7 @@
 }
 
 .swiper-backface-hidden .swiper-slide {
-  height: 330px !important;
+  height: 300px !important;
 }
 
 .card{
@@ -65,7 +65,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 20px 20px;
+  padding: 60px 20px;
   color: white;
   height: 330px;
   
@@ -78,18 +78,18 @@
   justify-content: center;
   align-items: flex-start;
   font-size: 18px;
-
+  text-align: center;
 }
 
 .description{
   text-align: justify;
-  font-size: 15px;
+  font-size: 17px;
 
 }
 
 .example{
   text-align: justify;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .swiper-navBtn{
@@ -139,14 +139,12 @@
 
 @media screen and (max-width: 519px) {
   .slide-content{
+    width: 300px;
     margin: 0 70px;
   }
   .swiper-navBtn{
     display: none;
   }
-
-  
-  
 }
 
 @media (max-width : 425px){
