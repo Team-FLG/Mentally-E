@@ -1,15 +1,14 @@
 /* contact us*/
-section{
-  padding :80px 108;
+#contact {
+  background-color: var(--primary-blue);
+  min-height: 100vh;
 }
 
-#contact{
-  background: #101010;
-  height: 100%;
-  width: 100%;
-  min-height: 100vh;
+.contact-container {
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(2,2fr);
+  margin: 0 auto;
   grid-gap: 6rem;
 }
 .contact-img img{
@@ -44,11 +43,11 @@ span{
   padding: 17px;
   border: none;
   outline: none;
-  background: #191919;
+  background: #012545;
   color: #fff;
   font-size: 1.1rem;
   margin-bottom: .7rem;
-  border-radius: 17px;
+  border-radius: 8px;
   
 }
 .contact-form textarea{
@@ -63,16 +62,15 @@ span{
   text-transform: uppercase;
   font-weight: 600;
   border: 2px solid transparent;
-  border-radius: 17px;
+  border-radius: 8px;
   width: 200px;
   transition: ease .20s;
   cursor: pointer;
 
 }
 .contact-form form .btn:hover{
-  border: 2px solid #01386a;
+  border: 2px solid #012545;
   background: transparent;
-  transform: scale(1.1);
 }
 @media (max-width:1570px){
   section{
