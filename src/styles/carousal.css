@@ -1,8 +1,8 @@
 .carousal{
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   background-color: #f2f2f2;
-  padding-top: 80px;
+  padding: 80px 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,14 +15,14 @@
 
 .disorder-h{
   text-align: center;
-  font-size: 50px;
+  font-size: 55px;
   color: #01386a;
 }
 
 .disorder-p{
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
-  font-size: medium;
+  font-size: 18px;
   font-weight: 600;
   color: #333333cc;
   
@@ -32,16 +32,23 @@
   max-width: 1120px;
   width: 100%;
   padding: 10px 0;
-  min-height: 330px;
-  margin: 30px;
+  min-height: 400px;
+  margin: 5px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide-content{
   margin: 0 120px;
   overflow: hidden;
   border-radius: 25px;
-  height: 290px;
+  height: 350px;
 
+}
+
+.swiper-backface-hidden .swiper-slide {
+  height: 300px !important;
 }
 
 .card{
@@ -50,6 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 280px;
 }
 
 .card-content{
@@ -57,26 +65,31 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 30px 30px;
+  padding: 60px 20px;
   color: white;
+  height: 330px;
   
 }
 
 .name{
   font-size: 19px;
   font-weight: 600;
-
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 18px;
+  text-align: center;
 }
 
 .description{
-  font-size: 13px;
   text-align: justify;
+  font-size: 17px;
 
 }
 
 .example{
-  font-size: 13px;
   text-align: justify;
+  font-size: 17px;
 }
 
 .swiper-navBtn{
@@ -106,6 +119,7 @@
   background-color: #0094c1;
   opacity: 1;
   bottom: 0px !important;
+  margin-bottom: 5px !important;
 }
 
 .swiper-pagination-bullet-active{
@@ -117,16 +131,22 @@
     margin: 0 30px;
   }
   .swiper-navBtn{
-    display: none;
+    display: none;    
   }
+
 }
 
 
 @media screen and (max-width: 519px) {
   .slide-content{
+    width: 300px;
     margin: 0 70px;
   }
   .swiper-navBtn{
     display: none;
   }
+}
+
+@media (max-width : 425px){
+  
 }
