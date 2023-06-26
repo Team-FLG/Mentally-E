@@ -54,10 +54,10 @@
     color: var(--primary-blue);
     text-align: justify;
     padding-top: 10px;
+    text-align: center;
 }
 
-.why-content li{
-    
+.why-content h3{
     font-size: 21px;
     color: var(--primary-blue);
     text-align: center;
@@ -82,7 +82,7 @@
         font-size: 16px;
     }
     
-    .why-content li{
+    .why-content h3{
         
         font-size: 19px;
 
@@ -125,7 +125,7 @@
         font-size: 15px;
     }
     
-    .why-content li{
+    .why-content h3{
         font-size: 18px;
     }
 
