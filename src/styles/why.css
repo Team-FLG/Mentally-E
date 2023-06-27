@@ -135,3 +135,125 @@
     }
 
 }
+
+@media(max-width: 505px){
+
+    .why-head h1{
+        padding-top: 140px;
+    }
+
+    .why-content{
+        width: 400px;
+        height: 110px;
+        padding: 10px 10px;
+    }
+
+    .why-1{
+        gap: 10px;
+    }
+
+    .why-2{
+        gap: 10px;
+    }
+
+    .why-main{
+        gap: 10px;
+        padding-top: 20px;
+    }
+    
+    .why-content p{
+        font-size: 15px;
+    }
+    
+    .why-content h3{
+        font-size: 18px;
+    }
+
+    .why-head h1{
+        font-size: 35px;
+        padding-top: 0px;
+    }
+
+}
+
+
+
+@media(max-width: 425px){
+
+    .why-head h1{
+        padding-top: 140px;
+    }
+
+    .why-content{
+        width: 350px;
+        height: 120px;
+        padding: 10px 10px;
+    }
+
+    .why-1{
+        gap: 8px;
+    }
+
+    .why-2{
+        gap: 8px;
+    }
+
+    .why-main{
+        gap: 8px;
+        padding-top: 15px;
+    }
+    
+    .why-content p{
+        font-size: 15px;
+    }
+    
+    .why-content h3{
+        font-size: 17px;
+    }
+
+    .why-head h1{
+        font-size: 33px;
+        padding-top: 0px;
+    }
+
+}
+
+@media(max-width: 375px){
+
+    .why-head h1{
+        padding-top: 140px;
+    }
+
+    .why-content{
+        width: 300px;
+        height: 120px;
+        padding: 10px 10px;
+    }
+
+    .why-1{
+        gap: 5px;
+    }
+
+    .why-2{
+        gap: 5px;
+    }
+
+    .why-main{
+        gap: 5px;
+        padding-top: 15px;
+    }
+    
+    .why-content p{
+        font-size: 13px;
+    }
+    
+    .why-content h3{
+        font-size: 16px;
+    }
+
+    .why-head h1{
+        font-size: 33px;
+        padding-top: 0px;
+    }
+
+}

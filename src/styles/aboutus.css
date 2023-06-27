@@ -139,7 +139,7 @@
         font-size:18px;
         padding-top: 15px;
         text-align: center;
-        min-width: 300px ;
+        /* min-width: 300px ; */
     }
 
     #about-us .right .grid-container{
@@ -258,9 +258,9 @@
     }
 
     #about-us .left .abtus-p{
-        padding-top: 15px;
+        padding-top: 15px 10px 0px 10px;
         text-align: center;
-        font-size: 18px;
+        font-size: 17px;
     }
 
     #about-us .right{
@@ -271,7 +271,7 @@
         background-size: cover;
         height: 300px;
         margin-top: 30px;
-        width: 400px;
+        width: 100%;
         border-radius: 13px;
         
     }
@@ -300,4 +300,30 @@
         display: none;
     }
     
+}
+
+
+
+@media(max-width:425px){
+
+    #about-us .left .abtus-p{
+        font-size: 15px;
+    }
+
+    #about-us .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        margin-top: 30px;
+        width: 100%;
+        border-radius: 13px;
+        
+    }
+
+    #about-us .left .abtus-h{
+        font-size: 45px;
+        
+    }
+
 }

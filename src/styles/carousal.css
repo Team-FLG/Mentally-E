@@ -10,22 +10,16 @@
 }
 
 .disorder{
-  width: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .disorder-h{
   text-align: center;
   font-size: 55px;
   color: #01386a;
-}
-
-.disorder-p{
-  padding-top: 10px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  color: #333333cc;
-  
 }
 
 .slide-container{
@@ -71,9 +65,6 @@
   
 }
 
-.card-content hr{
-  width: 180px;
-}
 
 .name{
   font-size: 20px;
@@ -153,5 +144,25 @@
 }
 
 @media (max-width : 425px){
+
+  .disorder-h{
+    font-size: 45px;
+  }
+
+  .slide-content{
+    margin: 0 30px;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 350px;
+  
+  }
+  
+}
+
+@media (max-width : 375px){
+
+  .disorder-h{
+    font-size: 40px;
+  }
   
 }
