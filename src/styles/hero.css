@@ -1,43 +1,34 @@
 /*hero section*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Monserrat";
-  font-size: 18px;
-  
-}
 #hero {
-  
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-    url("https://images.healthshots.com/healthshots/en/uploads/2022/10/17204734/smile-and-happiness.jpg");
+    url("https://img.freepik.com/free-vector/organic-flat-people-meditating-illustration_23-2148906557.jpg?w=740&t=st=1687888649~exp=1687889249~hmac=cd8c42010097ac402ccc1c9ad4efbeff548d6d75ef6f6acc07df9592b785aff2");
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;
-
   }
 .container {
   width: 90%;
   height: 100%;
   max-width: 1200px;
+  padding-top: 120px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: left;
   /*   text-align: center; */
 }
+#hero .info {
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 #hero .info h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   /* text-transform: uppercase; */
   margin-bottom: 1rem;
-  font-size: 5rem;
 }
 #hero .info h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-bottom: 2rem;
 }
 #hero .info p {
