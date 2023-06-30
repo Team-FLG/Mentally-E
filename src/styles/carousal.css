@@ -1,13 +1,4 @@
-.carousal{
-  /* height: 100vh; */
-  width: 100%;
-  background-color: #f2f2f2;
-  padding: 80px 0 0 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+.carousal{width: 100%;background-color: #f2f2f2;display: flex;flex-direction: column;justify-content: center;align-items: center;}
 
 .disorder{
   width: 100%;
@@ -46,12 +37,12 @@
 }
 
 .card{
-  border-radius: 25px;
-  background-image: linear-gradient(#01386a,#0094c1);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 280px;
+  border-radius: 25px;
+  background-image: linear-gradient(#01386a,#0094c1);
 }
 
 .card-content{
@@ -59,15 +50,13 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 60px 20px;
+  padding: 50px 20px;
   color: white;
   height: 330px;
-  
 }
 
 
 .name{
-  font-size: 20px;
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -78,13 +67,11 @@
 }
 
 .description{
-  text-align: justify;
   font-size: 17px;
 
 }
 
 .example{
-  text-align: justify;
   font-size: 17px;
 }
 
@@ -123,6 +110,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .carousal {
+    display: block;
+    min-height: 100%;
+    padding: 10% 5%;
+  }
+
   .slide-content{
     margin: 0 30px;
   }
@@ -160,7 +153,9 @@
 }
 
 @media (max-width : 375px){
-
+  .carousal {
+    padding: 80px 0;
+  }
   .disorder-h{
     font-size: 40px;
   }

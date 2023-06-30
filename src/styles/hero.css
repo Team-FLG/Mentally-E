@@ -1,45 +1,173 @@
 /*hero section*/
 #hero {
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-    url("https://img.freepik.com/free-vector/organic-flat-people-meditating-illustration_23-2148906557.jpg?w=740&t=st=1687888649~exp=1687889249~hmac=cd8c42010097ac402ccc1c9ad4efbeff548d6d75ef6f6acc07df9592b785aff2");
-    background-repeat: no-repeat;
-    background-attachment:scroll;
-    background-size: cover;
-  }
-.container {
-  width: 90%;
-  height: 100%;
-  max-width: 1200px;
-  padding-top: 120px;
-  margin: 0 auto;
-  /*   text-align: center; */
+    background-color: var(--primary-blue);
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.hero-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 6rem;
+    height: inherit;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.pulsate-fwd {
+    -webkit-animation: pulsate-fwd 5s ease-in-out infinite both;
+    animation: pulsate-fwd 5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
 #hero .info {
-  color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
 }
 
 #hero .info h1 {
-  font-size: 5rem;
-  /* text-transform: uppercase; */
-  margin-bottom: 1rem;
+    font-size: 5rem;
+    /* text-transform: uppercase; */
+    margin-bottom: 1rem;
 }
+
 #hero .info h2 {
-  font-size: 1.6rem;
-  margin-bottom: 2rem;
-}
-#hero .info p {
-  font-size: 1.2rem;
-  max-width: 50%;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
-  html {
-    font-size: 10px;
-  }
+@media screen and (max-width: 1440px) {
+    .hero-container {
+        gap: 6rem;
+    }
+
+    .hero-img {
+        width: 60%;
+    }
+
+    #hero .info h1 {
+        font-size: 3.7rem;
+    }
+
+    #hero .info h2 {
+        font-size: 1.15rem;
+    }
 }
 
+@media screen and (max-width: 1024px) {
 
+    .hero-img {
+        width: 60%;
+    }
+
+    #hero .info h1 {
+        font-size: 3rem;
+    }
+
+    #hero .info h2 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero {
+        display: block;
+        overflow: hidden;
+        max-height: 100vh;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero-img {
+        width: 100%;
+        margin-top: -6rem;
+    }
+
+    .info {
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    #hero .info h1 {
+        font-size: 3rem;
+    }
+
+    #hero .info h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #hero {
+        min-height: 100vh;
+    }
+
+    .hero-img {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .info {
+        padding-top: 6rem;
+    }
+
+    #hero .info h1 {
+        font-size: 2.5rem;
+    }
+
+    #hero .info h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .info {
+        padding-top: 4rem;
+    }
+
+    .hero-container {
+        width: 100%;
+    }
+}
