@@ -66,6 +66,7 @@ nav{
     border-radius: 15px;
     cursor: pointer;
     border-style: none;
+    text-decoration: none;
 }
 
 .right button:hover{
