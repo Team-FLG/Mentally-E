@@ -1,5 +1,5 @@
 nav{
-    height: 80px;
+    height: 75px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -66,6 +66,7 @@ nav{
     border-radius: 15px;
     cursor: pointer;
     border-style: none;
+    text-decoration: none;
 }
 
 .right button:hover{
@@ -232,6 +233,10 @@ dialog::backdrop {
   }
 
 @media(max-width: 470px){
+    nav .left .logo-name {
+        display: none;
+    }
+
     #data-modal{
         padding: 5px auto;
         width: 600px;

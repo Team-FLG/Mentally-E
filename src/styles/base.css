@@ -16,9 +16,21 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-section{
+section {
     min-height: 100vh;
-    padding-top: 75px;
+    width: 100%;
 }
 
+@media screen  and  (max-width: 425px) {
+    section {
+        min-height: 100%;
+        padding: 80px 20px;
+    }
+}
 
+@media screen  and  (max-width: 375px) {
+    section {
+        min-height: 100%;
+        padding: 80px 10px;
+    }
+}
