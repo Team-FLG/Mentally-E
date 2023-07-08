@@ -36,9 +36,8 @@
     font-size: 17px;
     color: var(--primary-blue);
     padding-top: 15px;
-    text-align: center;
+    text-align: justify;
     font-weight: 500;
-
 }
 
 #about-us .right .grid-container{
