@@ -143,8 +143,6 @@ height: 150px;
     #about-us .left .abtus-p{
         font-size: 16px;
         padding-top: 15px;
-        text-align: center;
-        /* min-width: 300px ; */
     }
 
     #about-us .right .grid-container{
@@ -263,9 +261,9 @@ height: 150px;
     }
 
     #about-us .left .abtus-p{
-        padding-top: 15px 10px 0px 10px;
-        text-align: center;
+        padding: 15px 10px 0px 10px;
         font-size: 17px;
+        text-indent: 10px;
     }
 
     #about-us .right{
